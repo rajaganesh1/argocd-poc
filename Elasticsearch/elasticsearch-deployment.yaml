@@ -14,7 +14,7 @@ spec:
         app: elasticsearch
     spec:
       containers:
-      - image: gcr.io/google-containers/elasticsearch:v6.2.5
+      - image: gcr.io/google-containers/elasticsearch:v6.3.0
         name: elasticsearch
         ports:
         - containerPort: 80
